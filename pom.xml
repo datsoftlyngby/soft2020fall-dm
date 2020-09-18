@@ -10,6 +10,8 @@
 
     <properties>
         <kotlin.version>1.4.0</kotlin.version>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -49,7 +51,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <jvmTarget>1.8</jvmTarget>
+                    <jvmTarget>1.13</jvmTarget>
                 </configuration>
             </plugin>
         </plugins>
